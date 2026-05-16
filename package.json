@@ -1,0 +1,31 @@
+{
+  "name": "autoguard-pro-backend",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "kill": "kill-port 5001",
+    "dev:backend": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.15.1",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.7",
+    "express": "^4.22.1",
+    "express-validator": "^7.3.2",
+    "joi": "^18.1.2",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "mysql2": "^3.22.0",
+    "nodemailer": "^8.0.7",
+    "react-toastify": "^11.1.0",
+    "socket.io": "^4.8.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
